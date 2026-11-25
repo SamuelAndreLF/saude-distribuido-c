@@ -18,7 +18,11 @@ Vacina e consulta seguem o mesmo fluxo. No código são um "recurso" com um camp
 
 ## Instalar e compilar
 
-    sudo apt install build-essential rpcbind libtirpc-dev libsqlite3-dev libssl-dev
+Num Ubuntu (VM ou PC):
+
+    sudo apt install git build-essential rpcbind libtirpc-dev libsqlite3-dev libssl-dev
+    git clone https://github.com/SamuelAndreLF/saude-distribuido-c.git
+    cd saude-distribuido-c
     make
 
 O `make` roda o `rpcgen` em cima do `saude.x` e gera `saude.h`, `saude_xdr.c`, `saude_clnt.c` e `saude_svc.c`.
