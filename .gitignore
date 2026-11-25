@@ -1,0 +1,11 @@
+estado
+municipio
+federacao_falsa
+*.o
+saude.h
+saude_xdr.c
+saude_clnt.c
+saude_svc.c
+dados/
+dados_demo/
+.DS_Store
